@@ -49,12 +49,13 @@ function search() {
       } else if (weather.condition.text === "Light Snow") {
         img.src = "assets/img/snow.png";
       }
+      //   bck
       if (weather.is_day === 0) {
         body.classList.remove("day");
         body.classList.add("night");
       } else {
-        body.classList.add("day");
         body.classList.remove("night");
+        body.classList.add("day");
       }
     });
 }
