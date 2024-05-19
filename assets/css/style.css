@@ -18,7 +18,7 @@ body {
 
 main {
   max-width: 400px;
-  width: 50%;
+  margin: 0 10px;
 }
 .container {
   display: flex;
@@ -79,6 +79,7 @@ main {
 #temp {
   font-size: 40px;
   font-weight: bold;
+  text-align: center;
 }
 #clouds {
   text-align: center;
