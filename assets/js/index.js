@@ -6,7 +6,7 @@ const img = document.querySelector("#img");
 const humidity = document.querySelector("#humidity");
 const wind = document.querySelector("#wind");
 const apiKey = "2b7a339c7a61413a8cf182354241905";
-const endpoint = "http://api.weatherapi.com/v1/current.json";
+const endpoint = "https://api.weatherapi.com/v1/current.json";
 
 input.addEventListener("keydown", function (event) {
   if (event.key === "Enter" || event.key === "Return") {
